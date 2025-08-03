@@ -9,7 +9,7 @@ class CalculatorScreen extends StatefulWidget {
   const CalculatorScreen({super.key});
 
   @override
-  _CalculatorScreenState createState() => _CalculatorScreenState();
+  State<CalculatorScreen> createState() => _CalculatorScreenState();
 }
 
 class _CalculatorScreenState extends State<CalculatorScreen> {
