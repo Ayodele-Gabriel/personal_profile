@@ -10,6 +10,8 @@ import '../widgets/recipe/ingredient_list.dart';
 import '../widgets/recipe/instruction_step.dart';
 import '../widgets/recipe/recipe_card.dart';
 
+
+//list of all recipes and featured recipe
 class SampleRecipes {
   List<ResponsiveRecipeCard> featuredRecipe = [
     ResponsiveRecipeCard(

@@ -1,5 +1,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
+
+//for managing the state of 'favorited' recipes
 class FavoriteManager {
   static final FavoriteManager _instance = FavoriteManager._internal();
   factory FavoriteManager() => _instance;
